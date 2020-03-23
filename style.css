@@ -1,0 +1,157 @@
+/***********************DEFAULT****************************/
+nav, header {
+    display: block;
+}
+
+body{
+    background-color: rgb(27, 3, 73)
+}
+/***********************************************************/
+.row{
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+div.box{
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 18px;
+    padding: 36px 24px 30px 24px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .16),
+    0 2px 3px 0 rgba(0, 0, 0, .1);
+    background-color: beige;
+}
+
+.container{
+    background-color: white;
+    background-size: cover;
+    width: 60%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.container2{
+    background-color: white;
+    background-size: cover;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%; background-color: beige;}
+
+* {
+    box-sizing: border-box;
+}
+
+/******************************************/
+nav{
+    opacity: 0.8;
+    color: white;
+    background-size: cover;
+    font-family: "Courier New", Courier, monospace;
+    width: 100%;
+    margin: 0;
+    top :0;
+}
+
+nav ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li{
+    list-style: none;
+    float: right;
+}
+
+ul.topnav li.topnav-left{
+    float:left;
+}
+
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    font-size: 36px;
+    color:white;
+    font-weight: 400;
+    min-height:15px;
+    text-align:center;
+    padding: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+ul.topnav li.norm :hover{
+    background-color: #0080ff;
+}
+
+.options{
+    text-align: center;
+}
+ 
+.options button{
+    float: center;
+    font-size: 20px;
+    padding: 15px 60px;
+    margin: 5px;
+    outline: none;
+    border-radius: 15px;
+}   
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }  
